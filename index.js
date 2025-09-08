@@ -21,7 +21,7 @@ const overrides = [
   'crc-universal', 'quickbit-universal', 'sodium-native', 'udx-native', 'rocksdb-native',
   'fs-native-extensions', 'assert', 'console', 'events', 'fs', 'fs/promises', 'http', 'os',
   'path', 'child_process', 'repl', 'url', 'tty', 'module', 'process', 'timers', 'inspector',
-  'crypto'
+  'crypto', 'util'
 ]
 
 const builtins = {
