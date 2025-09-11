@@ -16,6 +16,12 @@
     "standard": "^17.1.2"
   },
   "dependencies": {
-    "script-linker": "^2.5.4"
+    "crc-universal": "^1.0.4",
+    "fs-native-extensions": "^1.4.3",
+    "quickbit-universal": "^2.2.0",
+    "rocksdb-native": "^3.7.5",
+    "script-linker": "^2.5.4",
+    "sodium-native": "^5.0.8",
+    "udx-native": "^1.18.3"
   }
 }
