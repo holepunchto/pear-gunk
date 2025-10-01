@@ -62,6 +62,8 @@ const builtins = {
         return require('fs-native-extensions')
       case 'rocksdb-native':
         return require('rocksdb-native')
+      case 'stream':
+        return require('stream')
       default:
         return Object.hasOwn(bmap, ns)
           ? require(bmap[ns])
