@@ -41,7 +41,8 @@ const overrides = [
   'process',
   'timers',
   'inspector',
-  'crypto'
+  'crypto',
+  'stream'
 ]
 
 const builtins = {
@@ -62,8 +63,6 @@ const builtins = {
         return require('fs-native-extensions')
       case 'rocksdb-native':
         return require('rocksdb-native')
-      case 'stream':
-        return require('stream')
       default:
         return Object.hasOwn(bmap, ns)
           ? require(bmap[ns])
