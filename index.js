@@ -41,7 +41,11 @@ const overrides = [
   'process',
   'timers',
   'inspector',
-  'crypto'
+  'stream',
+  'crypto',
+  'tls',
+  'zlib',
+  'buffer'
 ]
 
 const builtins = {
